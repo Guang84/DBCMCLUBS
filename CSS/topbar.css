@@ -1,0 +1,56 @@
+#topbar{
+    background-color: #505864;
+    overflow: hidden;
+    padding-bottom: 8px;
+    position: sticky;
+    width: 100%;
+    height: auto;
+    transition: top 0.3s;
+}
+#topbar a {
+    float: left;
+    color: #ffffff;
+    border-radius: 1.5px;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    padding-bottom: 0;
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 26px;
+}
+#topbar a:hover{
+    background-color: #ddd;
+    color: rgb(0, 68, 128);
+}
+#topbar a#home,a#help{
+    background-color: #aaff5b;
+    color: #000000;
+}
+#topbar #help{
+    color: #000000;
+}
+@media screen and (max-width: 800px){
+    #topbar{
+        height: auto;
+        width: 100%;
+        padding-bottom: 6px;
+    }
+    #topbar a{
+        max-width: 100%;
+        font-size: 15px;
+        padding: 4px 15px;
+    }
+}
+@media screen and (max-width: 355px){
+    #topbar{
+        height: auto;
+        width: 100%;
+        padding-bottom: 6px;
+    }
+    #topbar a{
+        max-width: 100%;
+        font-size: 13px;
+        padding: 4px 15px;
+    }
+}

@@ -1,0 +1,20 @@
+#allmid p{
+    padding: 10px;
+    padding-top: 20px;
+    text-transform: none;
+    font-size: 25px;
+    background-color: #f6fbec;
+    border-style: groove;
+    width: 80%;
+    height: 100px;
+    max-height: fit-content;
+    color: #ff0e0e;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+@media screen and (max-width:800px) {
+    #allmid p{
+        font-size: 15px;
+    }
+}

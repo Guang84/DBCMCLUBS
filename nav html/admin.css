@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   /* background-image: url('./image/anton-maksimov-5642-su-AHJlCDgq9II-unsplash.jpg');  */
+    background-image: url('https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg?auto=compress&cs=tinysrgb&w=1600../photos/backgroundImage/pexels-photo-1624496.jpeg');
+    width: 100%;
+    height: 100%;
+    background-position: -300px -900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div.main{
+    padding: 20px;
+    width: 80%;
+    margin:100px auto 0px auto;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+}
+div.login{
+    background-color: rgba(76, 150, 157, 0.678);
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    border-radius: 10px;
+    border:1px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 50px rgba(255, 255, 255, 0.5);
+    color:hsl(0, 0%, 100%);
+}
+form#login{
+    margin: 40px;
+    text-align: center;
+}
+label{
+    font-family: serif;
+    font-size: 24px;
+    font-style: italic;
+}
+.log{
+    width: 40%;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px;
+}
+.submit{
+    width: fit-content;
+    max-width: 100%;
+    padding:7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(245, 255, 56);
+    color: #13354e;
+    cursor: pointer;
+    border: 1px solid rgba(160, 186, 251, 0.3);
+    box-shadow: 1px 1px 5px rgba(162, 224, 228, 0.5);
+    margin-bottom: 10px;
+}
+input#submit:hover{
+    background-color: azure;
+}
+label,span,h2{
+    text-shadow: 1px 1px 50px rgb(255, 197, 8);
+}
+/* @media screen and (max-width: 800px){
+    div.main{
+        width: 100%;
+    }
+}
+*/
+@media screen and (max-width: 1050px){
+    label{
+        font-size: 20px;
+    }
+    input.log{ 
+        width: 80%;
+        padding: 7px;
+        font-size: 15px;
+    }
+    input.submit{
+        width: 100px;
+    }
+}
+/* @media screen and (max-width: 300px){
+    #login form {
+        width: 100%;
+        padding: 0%;
+    }
+    input{
+        width: 100%;
+    }
+}
+*/

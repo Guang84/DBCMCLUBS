@@ -1,0 +1,36 @@
+fieldset{
+    padding: 30px;
+    border-color: rgb(88, 255, 21);
+    width: 90%;
+    font-style: bold;
+    text-align: left;
+    margin-left: 20px;
+}
+.notice{
+    color: #4d4949;
+    font-size: 20px;
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.notice li::marker{
+    color: red;
+    font-size: 30px;
+}
+@media screen and (max-width: 800px){
+    fieldset{
+        width: 80%;
+    }
+    .notice{
+        font-size: 15px;
+        padding: 20px;
+    }
+    .notice li::marker{
+        color: rgb(238, 135, 0);
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 355px){
+    fieldset{
+        width: 60%;
+    }
+}

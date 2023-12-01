@@ -1,0 +1,110 @@
+.M1{
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.search #searchbar{
+  width: 50%;
+  font-size: large;
+  color: rebeccapurple;
+  height: 3pc;
+  margin-left: 25%;
+  border-radius: 5px;
+  border-color: #0a91ff;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 20px rgb(185, 215, 250);
+}
+.search #searchbar:hover{
+  border-color: #ff0a0a;
+}
+#chead{
+  text-align: center;
+  text-transform: capitalize;
+  color: #0a91ff;
+  font-size: 50px;
+  animation: fade-in-fade-out 2s infinite ;
+}
+#chead:hover{
+  text-decoration: wavy;
+  color: rgb(14, 189, 43);
+}
+@keyframes fade-in-fade-out{
+  43%{
+    color: #cc3737;
+  }
+}
+#T1 {
+  width: 70%;
+  height: 500px;
+  overflow-x: auto;
+  overflow-y: scroll;
+  background-color: rgb(236, 233, 231);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #0a91ff;
+  border-style: groove;
+  box-shadow: 2px 2px 20px rgb(199, 199, 184);
+}
+table{
+  width: 100%;
+  border-top: #fffffff8;
+  border-bottom: #0a91ff;
+  border-bottom: #fffffff8;
+  border-left: #fffffff8;
+  border-style: groove;
+  padding-top: 0px;
+  margin: 0 auto;
+  font-style: initial;
+  font-size: 25px;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+#T1 tr,td {padding: 20px;}
+#T1 tr,td a{
+  color: #000000;
+  text-decoration: none;
+}
+#it{
+  color: rgb(31, 28, 28);
+}
+#T1 a:visited{text-decoration: black;}
+#T1 a:active{color: red;}
+#T1 td:hover{
+  background-color: rgba(240, 221, 114, 0.959);
+  color: #2a4055;
+}
+tr:nth-child(even){
+  background-color: #fffffff8;
+}
+#end{
+  color: red;
+  font-size: 20px;
+}
+@media screen and (max-width: 800px){
+  .search #searchbar{
+    width: 65%;
+    font-size: 15px;
+    height: 2pc;
+    margin-left: 16%;
+  }
+  #chead{
+    font-size: 25px;
+  }
+  #T1{
+    width: 90%;
+    height: 300px;
+    padding: 0px;
+  }
+  #T1 table{
+    font-size: 18px;
+  }
+  .artic p{
+    font-size: 18px;
+  }
+}

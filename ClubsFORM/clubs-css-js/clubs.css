@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    height: 900px;
+    background-color: white;
+    scroll-behavior: smooth;
+    padding-bottom: 400px;
+}
+.top{
+    background-color: #36364c;
+}
+#icon {
+    width: 200px;
+    height: 200px;
+    font-size: small;
+}
+#head{
+    padding-top: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: -5px -10px rgba(50, 163, 255, 0.171);
+    color: rgb(9, 144, 255);
+    text-shadow: 3px 3px 900px rgb(0, 225, 255);
+}
+#topbar{
+    background-color: #505864;
+    overflow: hidden;
+    padding-bottom: 8px;
+    position: sticky;
+    width: 100%;
+    height: auto;
+    transition: top 0.3s;
+}
+#topbar a {
+    float: left;
+    color: #ffffff;
+    border-radius: 1.5px;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    padding-bottom: 0;
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 23px;
+}
+#topbar a:hover{
+    background-color: #ddd;
+    color: rgb(0, 68, 128);
+}
+#topbar a#home{
+    background-color: #aaff5b;
+    color: #000000;
+}
+@media screen and (max-width: 800px){
+    #topbar{
+        height: auto;
+        width: 100%;
+        padding-bottom: 6px;
+    }
+    #topbar a{
+        max-width: 100%;
+        font-size: 15px;
+        padding: 4px 15px;
+    }
+}
+.notice{
+    padding: 20px;
+}
+.notice #nothead{
+    color: rgb(255, 21, 21);
+    font-size: 25px;
+}
+fieldset {
+    height: 25vh;
+    max-height: fit-content;
+    color: rgb(212, 0, 255);
+    font-style: oblique;
+    padding: 10px;
+    border-color: rgb(250, 199, 58);
+    border-radius: 40px;
+}
+.M1{
+    padding: 40px;
+    font-size: 20px;
+    height: fit-content;
+    width: 85%;
+    border-radius: 50px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.M1 h4{
+    color: #0a40a5;
+}
+.M1 article,p{
+    color: #00226d;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+}
+.leaders{
+    background-color: #505864;
+    padding: 20px;
+    border-style: groove;
+    border-radius: 15px; 
+    width: 70%;
+    height: 200px;
+    max-height: fit-content;
+    padding-bottom: 15px;
+}
+.leaders .lhead{
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: cursive;
+    font-size: 28px;
+    position: relative;
+}
+.leaders .limage{
+    height: 160px;
+    width: 160px;
+    margin-top: -20px;
+    float: right;
+    border-style: groove;
+    border-radius: 15px;
+    border-color: #ffea70;
+}
+.leaders .data{
+    font-size: 20px;
+    padding: 1px;
+    padding-left: 60px;
+    text-transform: uppercase;
+}
+.data section h2{
+    color: #ff7a0d;
+    font-size: 23px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.data section{
+    color: #ffee00;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.data section b{
+    color: #ff7a0d;
+}
+.leaders section b{
+    text-transform: capitalize;
+}
+#unit{
+    color: rgb(255, 136, 0);
+    text-align: center; 
+    font-size: 25px; 
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media screen and (max-width: 800px){
+    *{
+        font-size: 15px;
+    }
+    body{
+        padding-top: .5px;
+    }
+    #head{
+        font-size: 55px;
+    }
+    #icon {
+        width: 100px;
+        height: 100px;
+    }
+    .notice #nothead{
+        font-size: 19px;
+    }
+    .M1{
+        width: 90%;
+        padding: 20px;
+        background-color: #cbd1da3b;
+        box-shadow: 2px 2px 5px rgb(49, 48, 47);
+    }
+    .M1{
+        font-size: 16px;
+    }
+    fieldset{
+        height: 100px;
+        font-size: 15px;
+    }
+    .leaders{
+        height: 100px;
+        padding-bottom: 15px;
+    }
+    .leaders .lhead{
+        font-size: 18px;
+    }
+    .leaders .limage{
+        width:90px;
+        height: 90px;
+    }
+    .leaders .data{
+        padding-left: 20px;
+    }
+    .data section h2{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 300px){
+    *{
+        font-size: 12px;
+    }
+    .top #head{
+        font-size: 40px;
+    }
+    #icon{
+        height: 80px;
+        width: 80px;
+    }
+    #topbar a{
+        font-size: 12px;
+    }
+    .notice{
+        padding: 0%;
+    }
+    .notice #nothead{
+        font-size: 15px;
+    }
+    fieldset{
+        height: 60px;
+        padding: 0%;
+    }
+    fieldset p{
+        margin-top: -7px;
+    }
+    .leaders{
+        height: 130px;
+        padding-bottom: 15px;
+    }
+    .leaders .lhead{
+        font-size: 16px;
+    }
+    .leaders .limage{
+        margin-top: 25px;
+        width:70px;
+        height: 70px;
+    }
+}

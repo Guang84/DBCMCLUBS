@@ -1,0 +1,118 @@
+#comments{
+  background-color: #d3d3d3bd;
+  height: auto;
+  max-height: fit-content;
+  font-size: 20px;
+  margin: 50px;
+  border-radius: 30px;
+  padding-left: 5px;
+  padding-right: 1px;
+  padding: 20px;
+  box-shadow: 2px 2px 20px rgba(136, 104, 63, 0.822);
+}
+#comments .mandatory{
+  color: red;
+}
+#comments label {
+  font-family: sans-serif;
+  color: #333333;
+  font-style: normal;
+  font-weight: 600;
+}
+#head{
+  text-align: center;
+  font-style: oblique;
+  font-size: 25px;
+  font-family: cursive;
+  text-shadow: -3px -8px rgba(116, 107, 110, 0.158);
+  color: #0f4fff;
+}
+/*youth club*/
+#comtext{
+  width: 100%;
+  height: 5em;
+}
+#comments form input{
+  height: 2.5em;
+  width: 88%;
+}
+#comments form ::placeholder{
+  font-size: 18px;
+}
+#comments form .submitF{
+  height: fit-content;
+  width: fit-content;
+  color: #000000;
+  margin-top: 10px;
+  background-color: rgb(246, 246, 246);
+  font-size: 20px;
+  font-family: sans-serif;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#comments form .submitF:hover{
+  color: #ff0e0e;
+  background-color: #e7d16c;
+  box-shadow: 2px 2px 20px rgba(97, 96, 94, 0.466);
+}
+@media screen and (max-width: 800px)
+{
+  #comments{
+    font-size: 15px;
+    margin: 30px;
+  }
+  #comments form ::placeholder{
+   font-size: 13px;
+  }
+  #head{
+    color: #ad6008;
+  }
+  #comments .input{
+    height: 18px;
+  }
+  #comments form .submitF{
+    color: #141929;
+    margin-top: 3px;
+    font-weight: 500;
+    background-color: aliceblue;
+    font-size: 15px;
+  }
+  #comtext{
+    width: 100%;
+    height: 3.5em;
+  }
+  #comments form .submitF:hover{
+    color: #241313;
+  }
+}
+#commentContainer h3{
+  align-content: flex-start;
+  text-align: none;
+  color: #241313;
+  font-size: 20px;
+}
+/*diplay comment here */
+#commentContainer{
+  border: 1px solid salmon;
+  border-style: groove;
+  width: 90%;
+}
+#commentContainer, #commentList{
+  margin-left: auto;
+  margin-right: auto;
+}
+#commentContainer h3{
+  color: #c57037;
+  text-transform: capitalize;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#commentList{
+  background-color: #f6fbec;
+  border-radius: 10px;
+  width: 80%;
+  height: 100px;
+  max-height: fit-content;
+  color: #ff0e0e;
+  padding: 10px;
+  text-align: center;
+}
