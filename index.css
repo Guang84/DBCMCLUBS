@@ -20,10 +20,18 @@ body {
   transition: 2s;
   text-decoration: overline;
   text-justify: distribute-all-lines;
+  animation: fade-in-fade-out 2s infinite ;
 }
 #visitor:hover{
-  color: chocolate;
+  text-decoration: wavy;
+  color: rgb(14, 189, 43);
   cursor: pointer;
+  text-decoration: underline;
+}
+@keyframes fade-in-fade-out{
+  43%{
+    color: #cc3737;
+  }
 }
 .artic{
   padding: 10px;
