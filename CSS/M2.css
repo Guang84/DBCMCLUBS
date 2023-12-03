@@ -16,6 +16,11 @@
 .contactus h2{
     color: #ff3636;
 }
+.contactus article{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .contactus h3{
     color: rgb(0, 204, 255);
     font-size: 20px;
