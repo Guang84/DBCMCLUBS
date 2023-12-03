@@ -13,8 +13,13 @@
     margin-right: auto;
     border-radius: 10px;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
     #allmid p{
         font-size: 15px;
+    }
+}
+@media screen and (max-width: 800px){
+    #allmid p{
+        font-size: 10px;
     }
 }
