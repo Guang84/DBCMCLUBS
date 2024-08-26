@@ -20,17 +20,13 @@
 #chead{
   text-align: center;
   text-transform: capitalize;
-  color: #0a91ff;
+  color: #0668b8;
   font-size: 0px;
-  animation: fade-in-fade-out 2s infinite ;
-}
-#chead:hover{
-  text-decoration: wavy;
-  color: rgb(14, 189, 43);
+  animation: fade-in-fade-out 5s infinite ;
 }
 @keyframes fade-in-fade-out{
   43%{
-    color: #cc3737;
+    color: #00000094;
   }
 }
 #T1 {

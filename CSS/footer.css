@@ -31,9 +31,8 @@ footer .foot{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px;
+    padding: 10px;
     font-size: 19px;
-    float: right;
 }
 #footer1  a{
     display: inline block;

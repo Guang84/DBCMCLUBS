@@ -33,8 +33,6 @@
 .M2 .socialmedia{
     height: 100px;
     width: 70%;
-    background-color: #f6fbec;
-    border: 1px solid #0a91ff;
     border-radius: 15px;
     text-align: center;
     margin-top: 0%;
@@ -47,9 +45,9 @@
     font-size: 30px;
     cursor: pointer;
 }
-.socialmedia h5{
+.socialmedia h4{
     margin: 0%;
-    color: #f84803;
+    color: #004e83;
 }
 .socialmedia a{
     margin: 40px
