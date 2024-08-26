@@ -6,7 +6,7 @@ footer{
 footer .foot{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    color: #aaff5b;
+    color: #ffffff;
     padding: 20px;
 }
 .foot a{
@@ -20,29 +20,30 @@ footer .foot{
     color: #df2231bd;
     background-color: aliceblue;
     text-align: center;
-    box-shadow:  -1px 1px 30px rgba(255, 255, 255, 0.514);
+    padding: 20px;
 }
 /*.add h3{
 
 }*/
 #footer1{
+    background-color: rgba(0, 0, 0, 0.61);
     text-align: left;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
     font-size: 19px;
+    float: right;
 }
 #footer1  a{
     display: inline block;
-    font-size: 20px;
-    text-transform: lowercase;
-    color: #e2e61a;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #ffffff;
     text-align: center;
-    align-content: center;
-    justify-content: center;
-    margin: 5%;
+    margin: 0px 40px 40px;
     text-decoration: none;
+    padding: 20px;
 }
 #footer1 a:hover{
     font-size: 24px;

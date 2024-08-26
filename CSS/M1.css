@@ -4,25 +4,24 @@
   margin: 0 auto;
 }
 .search #searchbar{
+  float: left;
   width: 50%;
   font-size: large;
-  color: rebeccapurple;
+  color: rgb(21, 136, 230);
   height: 3pc;
   margin-left: 25%;
   border-radius: 5px;
-  border-color: #0a91ff;
   text-align: center;
   text-transform: uppercase;
-  box-shadow: 2px 2px 20px rgb(185, 215, 250);
 }
 .search #searchbar:hover{
-  border-color: #ff0a0a;
+  border-color: #000000;
 }
 #chead{
   text-align: center;
   text-transform: capitalize;
   color: #0a91ff;
-  font-size: 50px;
+  font-size: 0px;
   animation: fade-in-fade-out 2s infinite ;
 }
 #chead:hover{
@@ -76,12 +75,13 @@ table{
 #T1 a:visited{text-decoration: black;}
 #T1 a:active{color: red;}
 #T1 td:hover{
-  background-color: rgba(240, 221, 114, 0.959);
-  color: #2a4055;
+  background-color: rgba(0, 0, 0, 0.164);
 }
 tr:nth-child(even){
   background-color: #fffffff8;
 }
+tr:nth-child(odd){
+  background-color: #3bc5fccc;}
 #end{
   color: red;
   font-size: 20px;

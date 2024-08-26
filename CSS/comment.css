@@ -1,5 +1,5 @@
 #comments{
-  background-color: #d3d3d3bd;
+  background-color: #ffffffbd;
   height: auto;
   max-height: fit-content;
   font-size: 20px;
@@ -8,7 +8,7 @@
   padding-left: 5px;
   padding-right: 1px;
   padding: 20px;
-  box-shadow: 2px 2px 20px rgba(136, 104, 63, 0.822);
+  box-shadow: 2px 2px 10px rgba(0, 183, 255, 0.822);
 }
 #comments .mandatory{
   color: red;
@@ -18,6 +18,9 @@
   color: #333333;
   font-style: normal;
   font-weight: 600;
+}
+#comments input{
+  border-radius: 5px;
 }
 #head{
   text-align: center;
@@ -74,45 +77,42 @@
     color: #141929;
     margin-top: 3px;
     font-weight: 500;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     font-size: 15px;
+    border-radius: 8px;
   }
   #comtext{
     width: 100%;
     height: 3.5em;
   }
   #comments form .submitF:hover{
-    color: #241313;
+    color: #ffffff;
+    background-color: #0f4fff;
   }
 }
-#commentContainer h3{
-  align-content: flex-start;
-  text-align: none;
-  color: #241313;
+#commentContainer h3 {
+  color: #014e96;
   font-size: 20px;
+  font-weight: 600;
 }
 /*diplay comment here */
 #commentContainer{
-  border: 1px solid salmon;
-  border-style: groove;
+  border: 1px solid rgb(7, 164, 255);
+  border-radius: 20px;
   width: 90%;
 }
 #commentContainer, #commentList{
   margin-left: auto;
   margin-right: auto;
 }
-#commentContainer h3{
-  color: #c57037;
-  text-transform: capitalize;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 #commentList{
-  background-color: #f6fbec;
+  background-color: #23b7fc4d;
   border-radius: 10px;
   width: 80%;
   height: 100px;
   max-height: fit-content;
-  color: #ff0e0e;
+  color: #000000;
   padding: 10px;
   text-align: center;
+  text-decoration: underline;
 }
