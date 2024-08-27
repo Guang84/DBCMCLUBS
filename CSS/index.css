@@ -1,15 +1,16 @@
+
 body {
   width: 70%;
+  margin: 0 auto;
   height: fit-content;
   max-height: fit-content;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
   animation-name: sep;
+  background-color: rgb(255, 249, 241);
+  border: 1px solid teal;
   scroll-behavior: smooth;
-
 }
 #visitor{
   color: rgb(215, 98, 8);
